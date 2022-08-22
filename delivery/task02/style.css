@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+@media screen and ( max-width : 767px ) {
+    #second_section article{
+        width: 500px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    #second_section :nth-child(1) {
+        background-color: blue;
+    }
+    #second_section :nth-child(2) {
+        background-color: green;
+    }
+    #second_section :nth-child(3) {
+        background-color: orange;
+    }
+    #second_section :nth-child(4) {
+        background-color: yellow;
+    }
+    #second_section :nth-child(5) {
+        background-color: red;
+    }
+}

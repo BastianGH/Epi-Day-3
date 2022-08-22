@@ -1,0 +1,59 @@
+li {
+    list-style: none;
+}
+@media  ( min-width : 1024px ) {
+    #second_section {
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-gap: 10px;
+        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #one {
+        background-color: blue;
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    #two {
+        background-color: green;
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+    #three-one {
+        background-color: orange;
+        grid-column: 1 / 2;
+        grid-row: 3;
+    }
+    #three-two {
+        background-color: yellow;
+        grid-column: 2 / 3;
+        grid-row: 3;
+    }
+    #four-one {
+        background-color: purple;
+        grid-column: 3 / 4;
+        grid-row: 3;
+    }
+    
+    #four-two {
+        background-color: purple;
+        grid-column: 1 / 2;
+        grid-row: 4;
+    }
+    #five-one {
+        background-color: pink;
+        grid-column: 2 / 3;
+        grid-row: 4;
+    }
+    #five-two {
+        background-color: pink;
+        grid-column: 3 / 4;
+        grid-row: 4;
+    }
+    #six {
+        background-color: red;
+        grid-column: 1 / 4;
+        grid-row: 5;
+    }
+}
